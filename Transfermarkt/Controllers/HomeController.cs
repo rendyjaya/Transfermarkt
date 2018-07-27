@@ -26,5 +26,12 @@ namespace Transfermarkt.Controllers
 
             return View();
         }
+
+        public ActionResult Players()
+        {
+            ViewBag.Message = "Players";
+
+            return View();
+        }
     }
 }
